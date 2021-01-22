@@ -1,0 +1,222 @@
+.container1{
+    max-width:960px ;
+    margin: 0 auto;
+}
+.container2{
+    max-width:300px ;
+    margin: 0 auto;
+    padding: 40px 0 0 0 ;
+}
+.txt__gray{color: #bbbecb;}
+.txt__white{color: #fff;}
+header{
+    background-image:url(../img/slider1.png),
+   url(../img/background.jpg); 
+   background-repeat: no-repeat,no-repeat;
+   background-size: cover,cover;
+   background-position: center,center;   
+   border-bottom: 1px solid black;
+   box-shadow: 0 2px 5px black;
+   
+}
+header > div{
+    position: relative;
+    height: 80vh;
+}
+header nav img{
+    height: 25px;
+}
+nav{
+    padding: 45px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+.line1{
+    border: 0;
+    border-top: 3px solid #3b3e47;
+    box-shadow: 0 2px 5px #15171c;
+    margin: 0 auto;
+}
+nav ul{
+    display: inline;
+  
+   
+}
+nav ul li{
+    display: inline-block;
+    padding: 0 0 20px 0 ;
+   transition:border-bottom  .2s linear;
+}
+nav ul li:hover{
+    padding: 0 0 16px 0;
+    border-bottom: 4px solid #cf5d37;
+}
+nav ul li a{
+    font: bold .8em Tahoma;
+    padding: 10px;
+    border-radius: 20px;
+    transition: all.2s linear;
+}
+nav ul li a:hover{
+    color:#41434b ;
+    background: rgba(255, 255, 255, .6);
+}
+
+ header div i,article i{
+    padding: 10px;
+    background: #41434b;
+    border-radius: 50%;
+    transition: all.2s linear;
+    
+}
+article a{
+    height: 30px;
+}
+article i{
+    padding: 20px;
+}
+header div i:hover, article i:hover{
+    box-shadow: 0 5px 15px #15171c;  
+    color: #41434b;
+    background: #fff;
+}
+
+
+.line2{
+    max-width: 370px!important;
+    height: 15px!important;
+    color: #020304!important;
+    opacity: .4!important;
+}
+#intro {
+ 
+   position: absolute;
+   left: 10px;
+   bottom: 20%;
+    
+}
+
+#intro h2{
+    
+    font: bold 1.1em Tahoma;
+}
+main{
+    background: url(../img/background.jpg) no-repeat center/cover;
+}
+.hm{
+    height: 144px;
+    margin: 0 auto;   
+}
+.line3{
+    border: 0;
+    border-top: 3px solid rgb(58, 61, 69);
+    box-shadow: 0 2px 5px #15171c;
+    margin: 10px auto 40px  auto;
+}
+article{
+    display: flex;
+    justify-content: space-between;
+}
+.text__art {
+    width: 60%;
+}
+.text__art h2{
+    font-family: Tahoma;
+}
+.text__art p{
+    font: .7em Tahoma;
+}
+.img__art{
+    padding: 20px;
+    background: rgba(58, 61, 69, .5 );
+    position: relative;
+}
+.img__art img{
+    display: block;
+
+}
+.img__art h6{
+    display: inline-block;
+    position: absolute;
+    font: bold .7em Tahoma;
+    padding: 4px;
+   left: -10px;
+    background: #d05e38;
+}
+.line4{
+    width: 70%;
+    margin: 20px auto;
+    border: 0;
+    border-top: 3px solid #2e2f35 ;
+    box-shadow: -3px 0 10px  #4a4a54;
+}
+footer{
+    padding: 40px 0 100px 0;
+    background: url(../img/bgfooter.jpg) repeat;
+}
+.line5{
+    max-width: 370px!important;
+    height: 10px!important;
+    color: #020304!important;
+    opacity: .4!important;
+    margin: 10px 0 0 0!important;
+}
+footer div div {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 0 0;
+}
+footer div p{  
+    font: .8em Tahoma;
+    width: 65%;
+}
+footer div div input{
+    padding: 10px 5px 10px 30px ;
+    background: #17171d url(../img/searchicon.png) no-repeat 10px;
+    border: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+footer div div form button{
+    border: 0;
+    margin: 0 0 0 -4px;
+    padding: 10px 10px 11px 10px;
+    border-radius: 0 3px 3px 0;
+    background: #17171d;
+    transition: background-color .2s linear;
+}
+footer div div form button i{
+    padding: 0;
+    background:none;
+    color: #2e2e35 ;
+}
+footer div div form button i:hover{
+    color: #17171d;
+    background:none ;
+    box-shadow: none;
+}
+footer div div form button:hover{
+    background-color: #ca5232;
+}
+footer > div > p{
+    width: 100%;
+    text-align: center;
+    background: url(../img/footerlink.png)no-repeat;
+    padding: 25px 0;
+    margin: 30px 0;
+}
+
+footer > div > p a{
+    display: inline-block;
+    margin: -10px 0 0 0;
+}
+footer > div > p a i{
+    font-size: 30px;
+}
+footer > div > p a:hover{
+    color:#bbbecb;
+}
+footer > div > h6{
+    text-align: center;
+    font: .7em Tahoma;
+}
